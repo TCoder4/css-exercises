@@ -24,3 +24,48 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* MY INITIAL SOLUTION */
+/* .cards {
+  display: flex;
+  gap: 32px;
+  margin-top: 32px;
+  justify-content: center;
+}
+
+.plant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 52px;
+  width: 200px;
+}
+
+.text {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+} */
+
+/* Some parts are redundant! */
+
+body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.plant {
+  max-width: 200px;
+}
